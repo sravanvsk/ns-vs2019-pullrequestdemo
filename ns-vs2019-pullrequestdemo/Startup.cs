@@ -33,6 +33,7 @@ namespace ns_vs2019_pullrequestdemo
                 endpoints.MapGet("/", async context =>
                 {
                     await context.Response.WriteAsync("<h2>Hello World!<h2>");
+                     await context.Response.WriteAsync("Welcome To MySite");
                 });
             });
         }
