@@ -32,7 +32,7 @@ namespace ns_vs2019_pullrequestdemo
             {
                 endpoints.MapGet("/", async context =>
                 {
-                    await context.Response.WriteAsync("<h1>Hello World!<h1>");
+                    await context.Response.WriteAsync("<h2>Hello World!<h2>");
                 });
             });
         }
